@@ -1,0 +1,5331 @@
+[ {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/Q7TP99"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/10116",
+      "label" : "Rattus norvegicus",
+      "info" : "Rat"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003723",
+      "label" : "RNA binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1267",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H0WK38"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/30611",
+      "label" : "Otolemur garnettii",
+      "info" : "Small-eared galago"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G1NZL5"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/59463",
+      "label" : "Myotis lucifugus",
+      "info" : "Little brown bat"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/F1LMA9"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/10116",
+      "label" : "Rattus norvegicus",
+      "info" : "Rat"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003723",
+      "label" : "RNA binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1267",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H0VI23"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/10141",
+      "label" : "Cavia porcellus",
+      "info" : "Guinea pig"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/M3Z1J6"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9669",
+      "label" : "Mustela putorius furo",
+      "info" : "European domestic ferret"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H2QKJ6"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9598",
+      "label" : "Pan troglodytes",
+      "info" : "Chimpanzee"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/E1BN24"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9913",
+      "label" : "Bos taurus",
+      "info" : "Bovine"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G3QZJ9"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9595",
+      "label" : "Gorilla gorilla gorilla",
+      "info" : "Western lowland gorilla"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G1R5M1"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/61853",
+      "label" : "Nomascus leucogenys",
+      "info" : "Northern white-cheeked gibbon"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/Q9P2E3"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9606",
+      "label" : "Homo sapiens",
+      "info" : "Human"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/25",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003723",
+      "label" : "RNA binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/677",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/621",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/863",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/U6CWZ8"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/452646",
+      "label" : "Neovison vison",
+      "info" : "American mink"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/K9J4W6"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9823",
+      "label" : "Sus scrofa",
+      "info" : "Pig"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/E2QX30"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9615",
+      "label" : "Canis lupus familiaris",
+      "info" : "Dog"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/Q8R151"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/10090",
+      "label" : "Mus musculus",
+      "info" : "Mouse"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/677",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/863",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/F7INZ9"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9483",
+      "label" : "Callithrix jacchus",
+      "info" : "White-tufted-ear marmoset"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/F7INZ4"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9483",
+      "label" : "Callithrix jacchus",
+      "info" : "White-tufted-ear marmoset"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/M3VWN5"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9685",
+      "label" : "Felis catus",
+      "info" : "Cat"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/I3LBR7"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9823",
+      "label" : "Sus scrofa",
+      "info" : "Pig"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1267",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H0UI63"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9606",
+      "label" : "Homo sapiens",
+      "info" : "Human"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H9ZBJ1"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9544",
+      "label" : "Macaca mulatta",
+      "info" : "Rhesus macaque"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/F6TQU9"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9796",
+      "label" : "Equus caballus",
+      "info" : "Horse"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H2P289"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9601",
+      "label" : "Pongo abelii",
+      "info" : "Sumatran orangutan"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G3T8Y4"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9785",
+      "label" : "Loxodonta africana",
+      "info" : "African elephant"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G1TUU3"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9986",
+      "label" : "Oryctolagus cuniculus",
+      "info" : "Rabbit"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G1M4S4"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9646",
+      "label" : "Ailuropoda melanoleuca",
+      "info" : "Giant panda"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/W5PSG5"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9940",
+      "label" : "Ovis aries",
+      "info" : "Sheep"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G3U7J4"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9785",
+      "label" : "Loxodonta africana",
+      "info" : "African elephant"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G7N4K7"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9544",
+      "label" : "Macaca mulatta",
+      "info" : "Rhesus macaque"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G1M4S9"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9646",
+      "label" : "Ailuropoda melanoleuca",
+      "info" : "Giant panda"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/I3L5Z9"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9823",
+      "label" : "Sus scrofa",
+      "info" : "Pig"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1267",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/Q7TP99"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/10116",
+      "label" : "Rattus norvegicus",
+      "info" : "Rat"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003723",
+      "label" : "RNA binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1267",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H0WK38"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/30611",
+      "label" : "Otolemur garnettii",
+      "info" : "Small-eared galago"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G1NZL5"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/59463",
+      "label" : "Myotis lucifugus",
+      "info" : "Little brown bat"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/F1LMA9"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/10116",
+      "label" : "Rattus norvegicus",
+      "info" : "Rat"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003723",
+      "label" : "RNA binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1267",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H0VI23"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/10141",
+      "label" : "Cavia porcellus",
+      "info" : "Guinea pig"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/M3Z1J6"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9669",
+      "label" : "Mustela putorius furo",
+      "info" : "European domestic ferret"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H2QKJ6"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9598",
+      "label" : "Pan troglodytes",
+      "info" : "Chimpanzee"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/E1BN24"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9913",
+      "label" : "Bos taurus",
+      "info" : "Bovine"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G3QZJ9"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9595",
+      "label" : "Gorilla gorilla gorilla",
+      "info" : "Western lowland gorilla"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G1R5M1"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/61853",
+      "label" : "Nomascus leucogenys",
+      "info" : "Northern white-cheeked gibbon"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/Q9P2E3"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9606",
+      "label" : "Homo sapiens",
+      "info" : "Human"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/25",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003723",
+      "label" : "RNA binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/677",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/621",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/863",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/U6CWZ8"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/452646",
+      "label" : "Neovison vison",
+      "info" : "American mink"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/K9J4W6"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9823",
+      "label" : "Sus scrofa",
+      "info" : "Pig"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/E2QX30"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9615",
+      "label" : "Canis lupus familiaris",
+      "info" : "Dog"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/Q8R151"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/10090",
+      "label" : "Mus musculus",
+      "info" : "Mouse"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/677",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/863",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/F7INZ9"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9483",
+      "label" : "Callithrix jacchus",
+      "info" : "White-tufted-ear marmoset"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/F7INZ4"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9483",
+      "label" : "Callithrix jacchus",
+      "info" : "White-tufted-ear marmoset"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/M3VWN5"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9685",
+      "label" : "Felis catus",
+      "info" : "Cat"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/I3LBR7"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9823",
+      "label" : "Sus scrofa",
+      "info" : "Pig"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1267",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H0UI63"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9606",
+      "label" : "Homo sapiens",
+      "info" : "Human"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H9ZBJ1"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9544",
+      "label" : "Macaca mulatta",
+      "info" : "Rhesus macaque"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/F6TQU9"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9796",
+      "label" : "Equus caballus",
+      "info" : "Horse"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H2P289"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9601",
+      "label" : "Pongo abelii",
+      "info" : "Sumatran orangutan"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G3T8Y4"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9785",
+      "label" : "Loxodonta africana",
+      "info" : "African elephant"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G1TUU3"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9986",
+      "label" : "Oryctolagus cuniculus",
+      "info" : "Rabbit"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G1M4S4"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9646",
+      "label" : "Ailuropoda melanoleuca",
+      "info" : "Giant panda"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/W5PSG5"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9940",
+      "label" : "Ovis aries",
+      "info" : "Sheep"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G3U7J4"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9785",
+      "label" : "Loxodonta africana",
+      "info" : "African elephant"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G7N4K7"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9544",
+      "label" : "Macaca mulatta",
+      "info" : "Rhesus macaque"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G1M4S9"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9646",
+      "label" : "Ailuropoda melanoleuca",
+      "info" : "Giant panda"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/I3L5Z9"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9823",
+      "label" : "Sus scrofa",
+      "info" : "Pig"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1267",
+      "label" : null,
+      "info" : null
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/Q7TP99"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/10116",
+      "label" : "Rattus norvegicus",
+      "info" : "Rat"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003723",
+      "label" : "RNA binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1267",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/10116",
+      "label" : "Rattus norvegicus",
+      "info" : "Rat"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003723",
+      "label" : "RNA binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1267",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/22860308376271150tt1649",
+      "label" : "1649",
+      "info" : "1649"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22860308376271150tt1053",
+      "label" : "1053",
+      "info" : "1053"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22860308376271150tt1431",
+      "label" : "1431",
+      "info" : "1431"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22860308376271150tt1486",
+      "label" : "1486",
+      "info" : "1486"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22860308376271150tt1574",
+      "label" : "1574",
+      "info" : "1574"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22860308376271150tt926",
+      "label" : "926",
+      "info" : "926"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22860308376271150tt392",
+      "label" : "392",
+      "info" : "392"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22860308376271150tt1402",
+      "label" : "1402",
+      "info" : "1402"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22860308376271150tt1544",
+      "label" : "1544",
+      "info" : "1544"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H0WK38"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/30611",
+      "label" : "Otolemur garnettii",
+      "info" : "Small-eared galago"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/30611",
+      "label" : "Otolemur garnettii",
+      "info" : "Small-eared galago"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/20319349805103150tt288",
+      "label" : "288",
+      "info" : "288"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20319349805103150tt890",
+      "label" : "890",
+      "info" : "890"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20319349805103150tt948",
+      "label" : "948",
+      "info" : "948"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G1NZL5"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/59463",
+      "label" : "Myotis lucifugus",
+      "info" : "Little brown bat"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/59463",
+      "label" : "Myotis lucifugus",
+      "info" : "Little brown bat"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/20038935938610478tt1329",
+      "label" : "1329",
+      "info" : "1329"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038935938610478tt289",
+      "label" : "289",
+      "info" : "289"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038935938610478tt1547",
+      "label" : "1547",
+      "info" : "1547"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038935938610478tt1300",
+      "label" : "1300",
+      "info" : "1300"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038935938610478tt1472",
+      "label" : "1472",
+      "info" : "1472"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/F1LMA9"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/10116",
+      "label" : "Rattus norvegicus",
+      "info" : "Rat"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003723",
+      "label" : "RNA binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1267",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/10116",
+      "label" : "Rattus norvegicus",
+      "info" : "Rat"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003723",
+      "label" : "RNA binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1267",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/19757452153141550tt1433",
+      "label" : "1433",
+      "info" : "1433"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19757452153141550tt815",
+      "label" : "815",
+      "info" : "815"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19757452153141550tt1320",
+      "label" : "1320",
+      "info" : "1320"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19757452153141550tt1375",
+      "label" : "1375",
+      "info" : "1375"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19757452153141550tt1463",
+      "label" : "1463",
+      "info" : "1463"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19757452153141550tt281",
+      "label" : "281",
+      "info" : "281"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19757452153141550tt942",
+      "label" : "942",
+      "info" : "942"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19757452153141550tt1291",
+      "label" : "1291",
+      "info" : "1291"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19757452153141550tt1538",
+      "label" : "1538",
+      "info" : "1538"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H0VI23"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/10141",
+      "label" : "Cavia porcellus",
+      "info" : "Guinea pig"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/10141",
+      "label" : "Cavia porcellus",
+      "info" : "Guinea pig"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/20319345476514606tt1545",
+      "label" : "1545",
+      "info" : "1545"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20319345476514606tt1298",
+      "label" : "1298",
+      "info" : "1298"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20319345476514606tt1440",
+      "label" : "1440",
+      "info" : "1440"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20319345476514606tt288",
+      "label" : "288",
+      "info" : "288"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20319345476514606tt1470",
+      "label" : "1470",
+      "info" : "1470"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20319345476514606tt1327",
+      "label" : "1327",
+      "info" : "1327"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/M3Z1J6"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9669",
+      "label" : "Mustela putorius furo",
+      "info" : "European domestic ferret"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9669",
+      "label" : "Mustela putorius furo",
+      "info" : "European domestic ferret"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/21730035673740846tt1331",
+      "label" : "1331",
+      "info" : "1331"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21730035673740846tt1386",
+      "label" : "1386",
+      "info" : "1386"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21730035673740846tt1474",
+      "label" : "1474",
+      "info" : "1474"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21730035673740846tt291",
+      "label" : "291",
+      "info" : "291"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21730035673740846tt1749",
+      "label" : "1749",
+      "info" : "1749"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21730035673740846tt953",
+      "label" : "953",
+      "info" : "953"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21730035673740846tt1549",
+      "label" : "1549",
+      "info" : "1549"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21730035673740846tt1302",
+      "label" : "1302",
+      "info" : "1302"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H2QKJ6"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9598",
+      "label" : "Pan troglodytes",
+      "info" : "Chimpanzee"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9598",
+      "label" : "Pan troglodytes",
+      "info" : "Chimpanzee"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/20321523060061742tt1471",
+      "label" : "1471",
+      "info" : "1471"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20321523060061742tt1298",
+      "label" : "1298",
+      "info" : "1298"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20321523060061742tt288",
+      "label" : "288",
+      "info" : "288"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20321523060061742tt1382",
+      "label" : "1382",
+      "info" : "1382"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20321523060061742tt891",
+      "label" : "891",
+      "info" : "891"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20321523060061742tt1546",
+      "label" : "1546",
+      "info" : "1546"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20321523060061742tt1327",
+      "label" : "1327",
+      "info" : "1327"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/E1BN24"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9913",
+      "label" : "Bos taurus",
+      "info" : "Bovine"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9913",
+      "label" : "Bos taurus",
+      "info" : "Bovine"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/19475934242550830tt1300",
+      "label" : "1300",
+      "info" : "1300"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19475934242550830tt1799",
+      "label" : "1799",
+      "info" : "1799"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19475934242550830tt1547",
+      "label" : "1547",
+      "info" : "1547"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19475934242550830tt1746",
+      "label" : "1746",
+      "info" : "1746"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19475934242550830tt1329",
+      "label" : "1329",
+      "info" : "1329"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19475934242550830tt951",
+      "label" : "951",
+      "info" : "951"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19475934242550830tt289",
+      "label" : "289",
+      "info" : "289"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19475934242550830tt1384",
+      "label" : "1384",
+      "info" : "1384"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19475934242550830tt1472",
+      "label" : "1472",
+      "info" : "1472"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G1R5M1"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/61853",
+      "label" : "Nomascus leucogenys",
+      "info" : "Northern white-cheeked gibbon"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/61853",
+      "label" : "Nomascus leucogenys",
+      "info" : "Northern white-cheeked gibbon"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/20038952497787182tt890",
+      "label" : "890",
+      "info" : "890"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038952497787182tt1545",
+      "label" : "1545",
+      "info" : "1545"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038952497787182tt1326",
+      "label" : "1326",
+      "info" : "1326"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038952497787182tt1297",
+      "label" : "1297",
+      "info" : "1297"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038952497787182tt1381",
+      "label" : "1381",
+      "info" : "1381"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038952497787182tt1470",
+      "label" : "1470",
+      "info" : "1470"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038952497787182tt288",
+      "label" : "288",
+      "info" : "288"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/Q9P2E3"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9606",
+      "label" : "Homo sapiens",
+      "info" : "Human"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/25",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003723",
+      "label" : "RNA binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/677",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/621",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/863",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9606",
+      "label" : "Homo sapiens",
+      "info" : "Human"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/25",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003723",
+      "label" : "RNA binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/677",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/621",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/863",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt1382",
+      "label" : "1382",
+      "info" : "1382"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt1741",
+      "label" : "1741",
+      "info" : "1741"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt904",
+      "label" : "904",
+      "info" : "904"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt1441",
+      "label" : "1441",
+      "info" : "1441"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt924",
+      "label" : "924",
+      "info" : "924"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt1715",
+      "label" : "1715",
+      "info" : "1715"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt812",
+      "label" : "812",
+      "info" : "812"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt755",
+      "label" : "755",
+      "info" : "755"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt910",
+      "label" : "910",
+      "info" : "910"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt1259",
+      "label" : "1259",
+      "info" : "1259"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt1856",
+      "label" : "1856",
+      "info" : "1856"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt890",
+      "label" : "890",
+      "info" : "890"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt891",
+      "label" : "891",
+      "info" : "891"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt1",
+      "label" : "1",
+      "info" : "1"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt1773",
+      "label" : "1773",
+      "info" : "1773"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt1351",
+      "label" : "1351",
+      "info" : "1351"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt1471",
+      "label" : "1471",
+      "info" : "1471"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt839",
+      "label" : "839",
+      "info" : "839"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt1298",
+      "label" : "1298",
+      "info" : "1298"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt1297",
+      "label" : "1297",
+      "info" : "1297"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt1330",
+      "label" : "1330",
+      "info" : "1330"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt738",
+      "label" : "738",
+      "info" : "738"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt1846",
+      "label" : "1846",
+      "info" : "1846"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt1546",
+      "label" : "1546",
+      "info" : "1546"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt1743",
+      "label" : "1743",
+      "info" : "1743"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt864",
+      "label" : "864",
+      "info" : "864"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt886",
+      "label" : "886",
+      "info" : "886"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22862489717125934tt286",
+      "label" : "286",
+      "info" : "286"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/U6CWZ8"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/452646",
+      "label" : "Neovison vison",
+      "info" : "American mink"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/452646",
+      "label" : "Neovison vison",
+      "info" : "American mink"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/23985035876644910tt1549",
+      "label" : "1549",
+      "info" : "1549"
+    }, {
+      "id" : "http://purl.uniprot.org/position/23985035876644910tt1302",
+      "label" : "1302",
+      "info" : "1302"
+    }, {
+      "id" : "http://purl.uniprot.org/position/23985035876644910tt1331",
+      "label" : "1331",
+      "info" : "1331"
+    }, {
+      "id" : "http://purl.uniprot.org/position/23985035876644910tt1386",
+      "label" : "1386",
+      "info" : "1386"
+    }, {
+      "id" : "http://purl.uniprot.org/position/23985035876644910tt1474",
+      "label" : "1474",
+      "info" : "1474"
+    }, {
+      "id" : "http://purl.uniprot.org/position/23985035876644910tt953",
+      "label" : "953",
+      "info" : "953"
+    }, {
+      "id" : "http://purl.uniprot.org/position/23985035876644910tt291",
+      "label" : "291",
+      "info" : "291"
+    }, {
+      "id" : "http://purl.uniprot.org/position/23985035876644910tt1749",
+      "label" : "1749",
+      "info" : "1749"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/K9J4W6"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9823",
+      "label" : "Sus scrofa",
+      "info" : "Pig"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9823",
+      "label" : "Sus scrofa",
+      "info" : "Pig"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/21173614121793070tt1299",
+      "label" : "1299",
+      "info" : "1299"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21173614121793070tt288",
+      "label" : "288",
+      "info" : "288"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21173614121793070tt1383",
+      "label" : "1383",
+      "info" : "1383"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21173614121793070tt1471",
+      "label" : "1471",
+      "info" : "1471"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21173614121793070tt1745",
+      "label" : "1745",
+      "info" : "1745"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21173614121793070tt1546",
+      "label" : "1546",
+      "info" : "1546"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21173614121793070tt1328",
+      "label" : "1328",
+      "info" : "1328"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/E2QX30"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9615",
+      "label" : "Canis lupus familiaris",
+      "info" : "Dog"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9615",
+      "label" : "Canis lupus familiaris",
+      "info" : "Dog"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/19477098346524718tt1299",
+      "label" : "1299",
+      "info" : "1299"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19477098346524718tt1441",
+      "label" : "1441",
+      "info" : "1441"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19477098346524718tt288",
+      "label" : "288",
+      "info" : "288"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19477098346524718tt950",
+      "label" : "950",
+      "info" : "950"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19477098346524718tt1546",
+      "label" : "1546",
+      "info" : "1546"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19477098346524718tt1328",
+      "label" : "1328",
+      "info" : "1328"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19477098346524718tt1383",
+      "label" : "1383",
+      "info" : "1383"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19477098346524718tt1471",
+      "label" : "1471",
+      "info" : "1471"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/Q8R151"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/10090",
+      "label" : "Mus musculus",
+      "info" : "Mouse"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/677",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/863",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/10090",
+      "label" : "Mus musculus",
+      "info" : "Mouse"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/677",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/863",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/22861398777606446tt802",
+      "label" : "802",
+      "info" : "802"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22861398777606446tt1733",
+      "label" : "1733",
+      "info" : "1733"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22861398777606446tt832",
+      "label" : "832",
+      "info" : "832"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22861398777606446tt212",
+      "label" : "212",
+      "info" : "212"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22861398777606446tt394",
+      "label" : "394",
+      "info" : "394"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22861398777606446tt1281",
+      "label" : "1281",
+      "info" : "1281"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22861398777606446tt1291",
+      "label" : "1291",
+      "info" : "1291"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22861398777606446tt1375",
+      "label" : "1375",
+      "info" : "1375"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22861398777606446tt1463",
+      "label" : "1463",
+      "info" : "1463"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22861398777606446tt1793",
+      "label" : "1793",
+      "info" : "1793"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22861398777606446tt939",
+      "label" : "939",
+      "info" : "939"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22861398777606446tt1130",
+      "label" : "1130",
+      "info" : "1130"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22861398777606446tt1",
+      "label" : "1",
+      "info" : "1"
+    }, {
+      "id" : "http://purl.uniprot.org/position/22861398777606446tt1433",
+      "label" : "1433",
+      "info" : "1433"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/F7INZ9"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9483",
+      "label" : "Callithrix jacchus",
+      "info" : "White-tufted-ear marmoset"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9483",
+      "label" : "Callithrix jacchus",
+      "info" : "White-tufted-ear marmoset"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/19764036356421934tt1298",
+      "label" : "1298",
+      "info" : "1298"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19764036356421934tt288",
+      "label" : "288",
+      "info" : "288"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19764036356421934tt1472",
+      "label" : "1472",
+      "info" : "1472"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19764036356421934tt1382",
+      "label" : "1382",
+      "info" : "1382"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19764036356421934tt891",
+      "label" : "891",
+      "info" : "891"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19764036356421934tt1327",
+      "label" : "1327",
+      "info" : "1327"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19764036356421934tt1547",
+      "label" : "1547",
+      "info" : "1547"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/F7INZ4"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9483",
+      "label" : "Callithrix jacchus",
+      "info" : "White-tufted-ear marmoset"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9483",
+      "label" : "Callithrix jacchus",
+      "info" : "White-tufted-ear marmoset"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/19764036356420654tt1298",
+      "label" : "1298",
+      "info" : "1298"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19764036356420654tt1472",
+      "label" : "1472",
+      "info" : "1472"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19764036356420654tt288",
+      "label" : "288",
+      "info" : "288"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19764036356420654tt1327",
+      "label" : "1327",
+      "info" : "1327"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19764036356420654tt1547",
+      "label" : "1547",
+      "info" : "1547"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19764036356420654tt1382",
+      "label" : "1382",
+      "info" : "1382"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19764036356420654tt891",
+      "label" : "891",
+      "info" : "891"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/M3VWN5"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9685",
+      "label" : "Felis catus",
+      "info" : "Cat"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9685",
+      "label" : "Felis catus",
+      "info" : "Cat"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/21730019131667758tt1383",
+      "label" : "1383",
+      "info" : "1383"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21730019131667758tt1471",
+      "label" : "1471",
+      "info" : "1471"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21730019131667758tt288",
+      "label" : "288",
+      "info" : "288"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21730019131667758tt1328",
+      "label" : "1328",
+      "info" : "1328"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21730019131667758tt950",
+      "label" : "950",
+      "info" : "950"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21730019131667758tt1546",
+      "label" : "1546",
+      "info" : "1546"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21730019131667758tt1441",
+      "label" : "1441",
+      "info" : "1441"
+    }, {
+      "id" : "http://purl.uniprot.org/position/21730019131667758tt1299",
+      "label" : "1299",
+      "info" : "1299"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/I3LBR7"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9823",
+      "label" : "Sus scrofa",
+      "info" : "Pig"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1267",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9823",
+      "label" : "Sus scrofa",
+      "info" : "Pig"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1267",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/20604075923093294tt1300",
+      "label" : "1300",
+      "info" : "1300"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20604075923093294tt1355",
+      "label" : "1355",
+      "info" : "1355"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20604075923093294tt1443",
+      "label" : "1443",
+      "info" : "1443"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20604075923093294tt1717",
+      "label" : "1717",
+      "info" : "1717"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20604075923093294tt1271",
+      "label" : "1271",
+      "info" : "1271"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20604075923093294tt1518",
+      "label" : "1518",
+      "info" : "1518"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20604075923093294tt297",
+      "label" : "297",
+      "info" : "297"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H0UI63"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9606",
+      "label" : "Homo sapiens",
+      "info" : "Human"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9606",
+      "label" : "Homo sapiens",
+      "info" : "Human"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/20319341181809454tt1298",
+      "label" : "1298",
+      "info" : "1298"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20319341181809454tt891",
+      "label" : "891",
+      "info" : "891"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20319341181809454tt1546",
+      "label" : "1546",
+      "info" : "1546"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20319341181809454tt1327",
+      "label" : "1327",
+      "info" : "1327"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20319341181809454tt1382",
+      "label" : "1382",
+      "info" : "1382"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20319341181809454tt1471",
+      "label" : "1471",
+      "info" : "1471"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20319341181809454tt288",
+      "label" : "288",
+      "info" : "288"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H9ZBJ1"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9544",
+      "label" : "Macaca mulatta",
+      "info" : "Rhesus macaque"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9544",
+      "label" : "Macaca mulatta",
+      "info" : "Rhesus macaque"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/20329258145165614tt1471",
+      "label" : "1471",
+      "info" : "1471"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20329258145165614tt1298",
+      "label" : "1298",
+      "info" : "1298"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20329258145165614tt1382",
+      "label" : "1382",
+      "info" : "1382"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20329258145165614tt1546",
+      "label" : "1546",
+      "info" : "1546"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20329258145165614tt288",
+      "label" : "288",
+      "info" : "288"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20329258145165614tt1327",
+      "label" : "1327",
+      "info" : "1327"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20329258145165614tt891",
+      "label" : "891",
+      "info" : "891"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/F6TQU9"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9796",
+      "label" : "Equus caballus",
+      "info" : "Horse"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9796",
+      "label" : "Equus caballus",
+      "info" : "Horse"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/19762984139438382tt1382",
+      "label" : "1382",
+      "info" : "1382"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19762984139438382tt1470",
+      "label" : "1470",
+      "info" : "1470"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19762984139438382tt949",
+      "label" : "949",
+      "info" : "949"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19762984139438382tt1327",
+      "label" : "1327",
+      "info" : "1327"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19762984139438382tt1545",
+      "label" : "1545",
+      "info" : "1545"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19762984139438382tt884",
+      "label" : "884",
+      "info" : "884"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19762984139438382tt1298",
+      "label" : "1298",
+      "info" : "1298"
+    }, {
+      "id" : "http://purl.uniprot.org/position/19762984139438382tt288",
+      "label" : "288",
+      "info" : "288"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/H2P289"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9601",
+      "label" : "Pongo abelii",
+      "info" : "Sumatran orangutan"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9601",
+      "label" : "Pongo abelii",
+      "info" : "Sumatran orangutan"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/20321518344485166tt288",
+      "label" : "288",
+      "info" : "288"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20321518344485166tt1244",
+      "label" : "1244",
+      "info" : "1244"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20321518344485166tt891",
+      "label" : "891",
+      "info" : "891"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20321518344485166tt1492",
+      "label" : "1492",
+      "info" : "1492"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20321518344485166tt1273",
+      "label" : "1273",
+      "info" : "1273"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20321518344485166tt1328",
+      "label" : "1328",
+      "info" : "1328"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20321518344485166tt1417",
+      "label" : "1417",
+      "info" : "1417"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G3T8Y4"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9785",
+      "label" : "Loxodonta africana",
+      "info" : "African elephant"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9785",
+      "label" : "Loxodonta africana",
+      "info" : "African elephant"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/20041160162096174tt1319",
+      "label" : "1319",
+      "info" : "1319"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20041160162096174tt1290",
+      "label" : "1290",
+      "info" : "1290"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20041160162096174tt1537",
+      "label" : "1537",
+      "info" : "1537"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20041160162096174tt1641",
+      "label" : "1641",
+      "info" : "1641"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20041160162096174tt280",
+      "label" : "280",
+      "info" : "280"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20041160162096174tt1462",
+      "label" : "1462",
+      "info" : "1462"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G1TUU3"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9986",
+      "label" : "Oryctolagus cuniculus",
+      "info" : "Rabbit"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9986",
+      "label" : "Oryctolagus cuniculus",
+      "info" : "Rabbit"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/20038961625117486tt288",
+      "label" : "288",
+      "info" : "288"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038961625117486tt1470",
+      "label" : "1470",
+      "info" : "1470"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038961625117486tt1298",
+      "label" : "1298",
+      "info" : "1298"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038961625117486tt1545",
+      "label" : "1545",
+      "info" : "1545"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038961625117486tt1327",
+      "label" : "1327",
+      "info" : "1327"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G1M4S4"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9646",
+      "label" : "Ailuropoda melanoleuca",
+      "info" : "Giant panda"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9646",
+      "label" : "Ailuropoda melanoleuca",
+      "info" : "Giant panda"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/20038931006567470tt1330",
+      "label" : "1330",
+      "info" : "1330"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038931006567470tt1385",
+      "label" : "1385",
+      "info" : "1385"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038931006567470tt1473",
+      "label" : "1473",
+      "info" : "1473"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038931006567470tt1548",
+      "label" : "1548",
+      "info" : "1548"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038931006567470tt1301",
+      "label" : "1301",
+      "info" : "1301"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038931006567470tt289",
+      "label" : "289",
+      "info" : "289"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/W5PSG5"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9940",
+      "label" : "Ovis aries",
+      "info" : "Sheep"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9940",
+      "label" : "Ovis aries",
+      "info" : "Sheep"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/24546942084658478tt1300",
+      "label" : "1300",
+      "info" : "1300"
+    }, {
+      "id" : "http://purl.uniprot.org/position/24546942084658478tt1547",
+      "label" : "1547",
+      "info" : "1547"
+    }, {
+      "id" : "http://purl.uniprot.org/position/24546942084658478tt1746",
+      "label" : "1746",
+      "info" : "1746"
+    }, {
+      "id" : "http://purl.uniprot.org/position/24546942084658478tt951",
+      "label" : "951",
+      "info" : "951"
+    }, {
+      "id" : "http://purl.uniprot.org/position/24546942084658478tt1329",
+      "label" : "1329",
+      "info" : "1329"
+    }, {
+      "id" : "http://purl.uniprot.org/position/24546942084658478tt289",
+      "label" : "289",
+      "info" : "289"
+    }, {
+      "id" : "http://purl.uniprot.org/position/24546942084658478tt1384",
+      "label" : "1384",
+      "info" : "1384"
+    }, {
+      "id" : "http://purl.uniprot.org/position/24546942084658478tt1472",
+      "label" : "1472",
+      "info" : "1472"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G3U7J4"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9785",
+      "label" : "Loxodonta africana",
+      "info" : "African elephant"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9785",
+      "label" : "Loxodonta africana",
+      "info" : "African elephant"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/20041164439303214tt1278",
+      "label" : "1278",
+      "info" : "1278"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20041164439303214tt1450",
+      "label" : "1450",
+      "info" : "1450"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20041164439303214tt268",
+      "label" : "268",
+      "info" : "268"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20041164439303214tt1629",
+      "label" : "1629",
+      "info" : "1629"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20041164439303214tt1307",
+      "label" : "1307",
+      "info" : "1307"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20041164439303214tt1525",
+      "label" : "1525",
+      "info" : "1525"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G7N4K7"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9544",
+      "label" : "Macaca mulatta",
+      "info" : "Rhesus macaque"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9544",
+      "label" : "Macaca mulatta",
+      "info" : "Rhesus macaque"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/20045532370777902tt1471",
+      "label" : "1471",
+      "info" : "1471"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20045532370777902tt1382",
+      "label" : "1382",
+      "info" : "1382"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20045532370777902tt1327",
+      "label" : "1327",
+      "info" : "1327"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20045532370777902tt1546",
+      "label" : "1546",
+      "info" : "1546"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20045532370777902tt288",
+      "label" : "288",
+      "info" : "288"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20045532370777902tt1298",
+      "label" : "1298",
+      "info" : "1298"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20045532370777902tt891",
+      "label" : "891",
+      "info" : "891"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/G1M4S9"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9646",
+      "label" : "Ailuropoda melanoleuca",
+      "info" : "Giant panda"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9646",
+      "label" : "Ailuropoda melanoleuca",
+      "info" : "Giant panda"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/20038931006568750tt1384",
+      "label" : "1384",
+      "info" : "1384"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038931006568750tt1472",
+      "label" : "1472",
+      "info" : "1472"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038931006568750tt289",
+      "label" : "289",
+      "info" : "289"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038931006568750tt1300",
+      "label" : "1300",
+      "info" : "1300"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038931006568750tt1547",
+      "label" : "1547",
+      "info" : "1547"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20038931006568750tt1329",
+      "label" : "1329",
+      "info" : "1329"
+    } ]
+  } ]
+}, {
+  "input" : {
+    "idclass" : "http://purl.uniprot.org/core/Protein",
+    "id" : "http://purl.uniprot.org/uniprot/I3L5Z9"
+  },
+  "output" : [ {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9823",
+      "label" : "Sus scrofa",
+      "info" : "Pig"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1267",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Taxon",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/taxonomy/9823",
+      "label" : "Sus scrofa",
+      "info" : "Pig"
+    } ]
+  }, {
+    "idclass" : "http://purl.uniprot.org/core/Concept",
+    "result" : [ {
+      "id" : "http://purl.obolibrary.org/obo/GO_0003700",
+      "label" : "DNA binding transcription factor activity",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008270",
+      "label" : "zinc ion binding",
+      "info" : "molecular_function"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1185",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0005634",
+      "label" : "nucleus",
+      "info" : "cellular_component"
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/175",
+      "label" : null,
+      "info" : null
+    }, {
+      "id" : "http://purl.uniprot.org/keywords/1267",
+      "label" : null,
+      "info" : null
+    } ]
+  }, {
+    "idclass" : "http://biohackathon.org/resource/faldo#ExactPosition",
+    "result" : [ {
+      "id" : "http://purl.uniprot.org/position/20604075705514286tt1754",
+      "label" : "1754",
+      "info" : "1754"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20604075705514286tt1337",
+      "label" : "1337",
+      "info" : "1337"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20604075705514286tt297",
+      "label" : "297",
+      "info" : "297"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20604075705514286tt1308",
+      "label" : "1308",
+      "info" : "1308"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20604075705514286tt1392",
+      "label" : "1392",
+      "info" : "1392"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20604075705514286tt1480",
+      "label" : "1480",
+      "info" : "1480"
+    }, {
+      "id" : "http://purl.uniprot.org/position/20604075705514286tt1555",
+      "label" : "1555",
+      "info" : "1555"
+    } ]
+  } ]
+} ]

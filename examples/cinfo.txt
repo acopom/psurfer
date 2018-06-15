@@ -1,0 +1,9 @@
+http://purl.uniprot.org/core/Taxon,Taxon,https://integbio.jp/rdf/mirror/uniprot/sparql,http://purl.uniprot.org/core/scientificName,http://purl.uniprot.org/core/commonName
+http://purl.uniprot.org/core/Protein,UniProt:Protein,https://integbio.jp/rdf/mirror/uniprot/sparql,http://www.w3.org/2000/01/rdf-schema#label,http://purl.uniprot.org/core/mnemonic
+http://purl.uniprot.org/core/Part,UniProt:ProteinPart,https://integbio.jp/rdf/mirror/uniprot/sparql,http://www.w3.org/2000/01/rdf-schema#label,http://www.w3.org/2000/01/rdf-schema#label
+http://purl.uniprot.org/core/Concept,Concept,https://integbio.jp/rdf/mirror/uniprot/sparql,http://www.w3.org/2000/01/rdf-schema#label,http://www.geneontology.org/formats/oboInOwl#hasOBONamespace
+http://purl.uniprot.org/core/Active_Site_Annotation,UniProt:ActiveSiteAnnotation,https://integbio.jp/rdf/mirror/uniprot/sparql,http://www.w3.org/2000/01/rdf-schema#label,http://www.w3.org/2000/01/rdf-schema#label
+https://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_siteCategory,PDB:StructSiteCategory,https://integbio.jp/rdf/sparql,-,-
+https://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_site,PDB:StructSite,https://integbio.jp/rdf/sparql,https://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_site.details,https://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_site.id
+http://biohackathon.org/resource/faldo#Region,Faldo:Region,https://integbio.jp/rdf/mirror/uniprot/sparql,-,-
+http://biohackathon.org/resource/faldo#ExactPosition,Faldo:ExactPosition,https://integbio.jp/rdf/mirror/uniprot/sparql,http://biohackathon.org/resource/faldo#position,http://biohackathon.org/resource/faldo#position
