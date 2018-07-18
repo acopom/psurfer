@@ -32,14 +32,33 @@ public class MPQuery {
         while ( iit.hasNext() ){
             String id = iit.next();
             MPResult mpr = doSPARQL(id, cp, epc);
+            //MPResult mpr = doSPARQL2(id, cp, epc);
             if (mpr != null){
                 res.add(mpr);
             }
         }
         return res;
     }
-    
+
     static public MPResult doSPARQL(String id, ClassPath cp, Set<String> epc){
+        List<ClassPath> cps = getEPGroup(cp);
+        ListIterator<ClassPath> pit = cps.listIterator();
+        Set<String> mid = new HashSet<>();
+        mid.add(id);
+        while (pit.hasNext()){
+            Set<String> res = doSPARQL4EPGroup(mid, pit.next(), epc);
+            mid = res;
+        }
+        MPResult mpr = new MPResult();
+        mpr.cl1 = cp.classes.get(0);
+        mpr.cl2 = cp.classes.get(cp.classes.size()-1);
+        mpr.id1 = id;
+        mpr.id2 = mid;
+        return mpr;        
+    }
+
+    static public MPResult doSPARQL2(String id, ClassPath cp, Set<String> epc){
+        
         String prefix = "SELECT DISTINCT ?next WHERE{ ";
         
         Set<String> mid = new HashSet<>();
@@ -62,10 +81,10 @@ public class MPQuery {
             }else{
                 sparqlbuf.append("?next <").append(de.property).append("> ?mid .\n");                
             }
-            if ( epc.contains(de.ep) ){ //use classes
-                sparqlbuf.append("?mid a <").append(cp.classes.get(i));
-                sparqlbuf.append(">\n ?next a <").append(cp.classes.get(i)).append(">\n");
-            }
+            //if ( epc.contains(de.ep) ){ //use classes
+            //    sparqlbuf.append("?mid a <").append(cp.classes.get(i));
+            //    sparqlbuf.append("> . \n ?next a <").append(cp.classes.get(i)).append("> .\n");
+            //}
             sparqlbuf.append("}");
             String sparql = sparqlbuf.toString();
             //System.out.println(sparql);
@@ -88,6 +107,85 @@ public class MPQuery {
         mpr.id1 = id;
         mpr.id2 = mid;
         return mpr;
+    }
+    
+    static public Set<String> doSPARQL4EPGroup(Set<String> ids, ClassPath cp, Set<String> epc){
+        Set<String> last = new HashSet<>();
+        if (ids.size() == 0){ return last; }
+        
+        String ep = cp.properties.get(0).ep;
+        boolean c = epc.contains(ep); // use class information for mid instances if true
+        String prefix = "SELECT DISTINCT ?last WHERE{ \n VALUES ?mid0 {";
+        StringBuilder sparqlbuf = new StringBuilder(prefix);
+
+        Iterator<String> iit = ids.iterator();
+        while (iit.hasNext()){
+            sparqlbuf.append("<").append(iit.next()).append("> ");
+        }
+        sparqlbuf.append("}\n ?mid0 a <");
+        sparqlbuf.append(cp.classes.get(0));
+        sparqlbuf.append("> . \n ");
+        for (int i = 0; i < cp.properties.size(); i++) {
+            String mid = "?mid".concat(Integer.toString(i));
+            String crr = null;
+            if (i == cp.properties.size() - 1 ){
+                crr = "?last";
+            }else{
+                crr = "?mid".concat(Integer.toString(i+1));
+            }
+
+            DiEdge de = cp.properties.get(i);
+            // ep check
+            if ( !ep.equals( de.ep ) ){
+                System.err.println("The URL of endpoints are different");
+            }
+            
+            if ( de.direction ){ //forward or reverse
+                sparqlbuf.append(mid).append(" <").append(de.property).append("> ")
+                        .append(crr).append(" .\n ");
+            }else{
+                sparqlbuf.append(crr).append(" <").append(de.property).append("> ")
+                        .append(mid).append(" .\n ");   
+            }
+            
+            if ( c ){// use class info
+                sparqlbuf.append(crr).append(" a <").append(cp.classes.get(i+1)).append("> . \n");                
+            }        
+        }
+        sparqlbuf.append("}");
+        String sparql = sparqlbuf.toString();
+        //System.out.println(sparql);
+        QueryExecution qe = QueryExecutionFactory.sparqlService(ep, sparql);
+        ResultSet rs = qe.execSelect();
+        while(rs.hasNext()){
+            QuerySolution qs = rs.next();
+            Resource re = qs.getResource("last");
+            if ( re.isURIResource() ){
+                last.add(re.getURI());
+            }
+        }
+        return last;
+    }
+    
+    static public List<ClassPath> getEPGroup(ClassPath cp){
+        List<ClassPath> cps = new LinkedList<>();
+        
+        String ep = cp.properties.get(0).ep;
+        ClassPath cp0 = new ClassPath();
+        cp0.classes.add(cp.classes.get(0));
+        cps.add(cp0);
+        for (int i = 0 ; i < cp.properties.size(); i++ ){
+            DiEdge de = cp.properties.get(i);
+            if ( ! de.ep.equals(ep)){
+                ep = de.ep;
+                cp0 = new ClassPath();
+                cp0.classes.add(cp.classes.get(i));
+                cps.add(cp0);                
+            }
+            cp0.classes.add(cp.classes.get(i+1));
+            cp0.properties.add(de);
+        }        
+        return cps;
     }
     
     static public void addMPOutput(List<MPResult> res, Map<String, CInfo> cinfo, MPOutput mpo){        
@@ -113,6 +211,8 @@ public class MPQuery {
             //as.add(a);
             id2a.put(a.input.id, a);
         }
+        
+        mpo.all.clear();
         
         Set<String> ids = id2res.keySet();
         Iterator<String> iit = ids.iterator();
@@ -163,14 +263,20 @@ public class MPQuery {
         String sparql = sparqlbuf.toString();
         //System.out.println(sparql);
         QueryExecution qe = QueryExecutionFactory.sparqlService(ep, sparql);
-        ResultSet rs = qe.execSelect();
-        while(rs.hasNext()){
-            QuerySolution qs = rs.next();
-            RDFNode re = qs.get("literal"); //.getResource("literal");            
-            if ( re.isLiteral() ){
+        try{
+            ResultSet rs = qe.execSelect();
+            while(rs.hasNext()){
+              QuerySolution qs = rs.next();
+              RDFNode re = qs.get("literal"); //.getResource("literal");            
+              if ( re.isLiteral() ){
                 return re.asLiteral().getString();
+              }
             }
+        }catch(Exception e){
+            System.err.println(sparql);
+            e.printStackTrace();
         }
+        qe.close();
         return null;
     }
     

@@ -28,12 +28,13 @@ public class MPMain {
         //System.out.println(mpc.getResult("search.json", "http://purl.uniprot.org/core/Taxon"));
         List<String> cls = new LinkedList<>();
         cls.add("http://purl.uniprot.org/core/Taxon");
-        cls.add("http://purl.uniprot.org/core/Concept");
+        //cls.add("http://purl.uniprot.org/core/Concept");
+        cls.add("http://www.w3.org/2002/07/owl#Class");
         cls.add("http://biohackathon.org/resource/faldo#ExactPosition");
         
         //String js = mpc.getResultFromClasses("search.json", cls);
         String js = mpc.getResultFromClasses(args[0], cls);
-        //MPIO.writeJson2File(js, "out.json");
+        //MPIO.writeJson2File(js, "out5.json");
         MPIO.writeJson2File(js, args[1]);
     }
 }
