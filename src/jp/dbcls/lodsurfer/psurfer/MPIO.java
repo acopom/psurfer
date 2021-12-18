@@ -65,6 +65,37 @@ public class MPIO {
         return cps;
     }
     
+    static public Map<String, ClassPath> readNPaths(String filename){
+        Map<String, ClassPath> cps = new HashMap<>();
+        File ifile = new File(filename);
+        ObjectMapper mapper = new ObjectMapper();
+        try{
+            JsonNode node = mapper.readTree(ifile);
+            int npath = node.size();
+            for ( int i = 0; i < npath ; i++ ){
+                ClassPath cp = new ClassPath();
+                cp.pname = node.get(i).get("pname").asText();
+                int nc = node.get(i).get("classes").size();
+                for ( int j = 0; j < nc ; j++ ){
+                    cp.classes.add(node.get(i).get("classes").get(j).asText());
+                }
+                int np = node.get(i).get("properties").size();
+                for ( int j = 0; j < np ; j++ ){
+                    DiEdge de = new DiEdge(
+                            node.get(i).get("properties").get(j).get("property").asText(),
+                            node.get(i).get("properties").get(j).get("direction").asBoolean(),
+                            node.get(i).get("properties").get(j).get("ep").asText()
+                            );
+                    cp.properties.add(de);
+                }
+                cps.put(cp.pname,cp);
+            }
+        }catch( IOException e ){
+            e.printStackTrace();
+        }
+        return cps;
+    }
+
     static public Set<String> readEPs(String filename){
         Set<String> eps = new HashSet<>();
         File ifile = new File(filename);

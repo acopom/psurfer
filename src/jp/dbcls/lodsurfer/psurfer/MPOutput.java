@@ -24,14 +24,15 @@ public class MPOutput {
     }
     
     public class OutputForClass{ 
+        public String pname;
         public String idclass;
         public List<Result> result;
     }
     
     public class Result{
         public String id;
-        public String label;
-        public String info;
+        public String literal1;
+        public String literal2;
     }
     
     public MPOutput(){
@@ -62,5 +63,4 @@ public class MPOutput {
         
         return res;
     }
-    
 }

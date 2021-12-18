@@ -16,12 +16,14 @@ import java.io.IOException;
  */
 public class MPCtrl {
     Map<String, List<ClassPath>> c2paths = null;
+    Map<String, ClassPath> n2path = null;
     Set<String> epc = null; // endpoints having classes
     Map<String, CInfo> cinfo = null;
 
     public void init(){
-        List<ClassPath> paths = MPIO.readPaths("paths.json");
-        c2paths = getC2Paths(paths);
+        //List<ClassPath> paths = MPIO.readPaths("paths.json");
+        n2path = MPIO.readNPaths("paths.json");
+        //c2paths = getC2Paths(paths);
         epc = MPIO.readEPs("ep.txt"); // kore
         cinfo = MPIO.readCInfo("cinfo.txt"); // koremo
     }
@@ -86,7 +88,18 @@ public class MPCtrl {
         return toJson(mpo.all);
     }
 
-    private Map<String, List<ClassPath>> getC2Paths(List<ClassPath> paths){
+    public String getResultFromPNames(String filename, List<String> pns ){
+        MPData mpd = MPIO.toMPData(filename);
+        MPOutput mpo = new MPOutput();
+        ListIterator<String> pit = pns.listIterator();
+        while ( pit.hasNext()){
+            String pn = pit.next();
+            MPQuery.addResult(mpd, n2path.get(pn), epc, cinfo, mpo);
+        }
+        return toJson(mpo.all);
+    }
+
+    /*private Map<String, List<ClassPath>> getC2Paths(List<ClassPath> paths){
         Map<String, List<ClassPath>> c2p = new HashMap<>();
         ListIterator<ClassPath> pit = paths.listIterator();
         while ( pit.hasNext() ){
@@ -100,7 +113,7 @@ public class MPCtrl {
             c2p.put(last, cpl);
         }
         return c2p;
-    }
+    }*/
     
     public static String toJson(Object o){
         ObjectMapper mapper = new ObjectMapper();

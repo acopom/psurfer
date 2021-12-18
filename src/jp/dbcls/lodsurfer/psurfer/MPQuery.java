@@ -233,8 +233,8 @@ public class MPQuery {
                     String id2 = iit2.next();
                     MPOutput.Result or = mpo.createResult(oc, id2);
                     // get labels
-                    or.label = getLabel(ci, id2);
-                    or.info = getInfo(ci, id2);
+                    or.literal1 = getLabel(ci, id2);
+                    or.literal2 = getInfo(ci, id2);
                 }
             }
             mpo.all.add(a);
@@ -258,7 +258,7 @@ public class MPQuery {
     static public String getLiteral(String ep, String id, String prop){
         String prefix = "SELECT ?literal WHERE { \n <";
         StringBuilder sparqlbuf = new StringBuilder(prefix);
-        sparqlbuf.append(id).append("> <").append(prop).append("> ?literal . }\n");
+        sparqlbuf.append(id).append("> ").append(prop).append(" ?literal . }\n");
         
         String sparql = sparqlbuf.toString();
         //System.out.println(sparql);
