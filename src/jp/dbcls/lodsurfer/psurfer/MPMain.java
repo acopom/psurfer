@@ -33,9 +33,9 @@ public class MPMain {
         pns.add("VariantUniProtRegion");
         
         //String js = mpc.getResultFromClasses("search.json", cls);
-        //String js = mpc.getResultFromClasses(args[0], cls);
-        String js = mpc.getResultFromPNames("search.json", pns);     
-        MPIO.writeJson2File(js, "out6.json");
-        //MPIO.writeJson2File(js, args[1]);
+        String js = mpc.getResultFromPNames(args[0], pns);
+        //String js = mpc.getResultFromPNames("search.json", pns);     
+        //MPIO.writeJson2File(js, "out6.json");
+        MPIO.writeJson2File(js, args[1]);
     }
 }
