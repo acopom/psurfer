@@ -1,22 +1,28 @@
 [
  {
   "pname":"GO", 
-  "classes":["http://purl.uniprot.org/core/Protein","http://purl.uniprot.org/core/Concept"],
+  "classes":["http://purl.uniprot.org/core/Protein","http://www.w3.org/2002/07/owl#Class"],
   "properties":[{"property":"http://purl.uniprot.org/core/classifiedWith", "direction":true, 
-               "ep":"https://integbio.jp/rdf/mirror/uniprot/sparql"}]
+               "ep":"https://sparql.uniprot.org/"}]
  },
  {
   "pname":"Taxon",
   "classes":["http://purl.uniprot.org/core/Protein","http://purl.uniprot.org/core/Taxon"],
   "properties":[{"property":"http://purl.uniprot.org/core/organism", "direction":true, 
-               "ep":"https://integbio.jp/rdf/mirror/uniprot/sparql"}]
+               "ep":"https://sparql.uniprot.org/"}]
+ },
+ {
+  "pname":"UP2PDB",
+  "classes":["http://purl.uniprot.org/core/Protein","http://purl.uniprot.org/core/Structure_Resource"],
+  "properties":[{"property":"http://www.w3.org/2000/01/rdf-schema#seeAlso", "direction":true,
+               "ep":"https://sparql.uniprot.org/"}]
  },
  {
   "pname":"ActiveSitePDBj",
   "classes":["http://purl.uniprot.org/core/Protein","http://purl.uniprot.org/core/Structure_Resource",
           "https://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_siteCategory"],
   "properties":[{"property":"http://www.w3.org/2000/01/rdf-schema#seeAlso", "direction":true,
-               "ep":"https://integbio.jp/rdf/mirror/uniprot/sparql"},
+               "ep":"https://sparql.uniprot.org/"},
               {"property":"https://rdf.wwpdb.org/schema/pdbx-v50.owl#has_struct_siteCategory",
                "direction":true,
                "ep":"https://integbio.jp/rdf/sparql"},
@@ -29,21 +35,28 @@
   "classes":["http://purl.uniprot.org/core/Protein","http://purl.uniprot.org/core/Active_Site_Annotation",
          "http://biohackathon.org/resource/faldo#Region","http://biohackathon.org/resource/faldo#ExactPosition"],
   "properties":[{"property":"http://purl.uniprot.org/core/annotation","direction":true,
-               "ep":"https://integbio.jp/rdf/mirror/uniprot/sparql"},
+               "ep":"https://sparql.uniprot.org/"},
               {"property":"http://purl.uniprot.org/core/range","direction":true,
-               "ep":"https://integbio.jp/rdf/mirror/uniprot/sparql"},
+               "ep":"https://sparql.uniprot.org/"},
               {"property":"http://biohackathon.org/resource/faldo#begin","direction":true,
-               "ep":"https://integbio.jp/rdf/mirror/uniprot/sparql"} ]
+               "ep":"https://sparql.uniprot.org/"} ]
  },
  {
-  "pname":"ActiveSiteUniProtEnd",
+  "pname":"ActiveSiteUniProtRegion",
   "classes":["http://purl.uniprot.org/core/Protein","http://purl.uniprot.org/core/Active_Site_Annotation",
-         "http://biohackathon.org/resource/faldo#Region","http://biohackathon.org/resource/faldo#ExactPosition"],
+         "http://biohackathon.org/resource/faldo#Region"],
   "properties":[{"property":"http://purl.uniprot.org/core/annotation","direction":true,
-               "ep":"https://integbio.jp/rdf/mirror/uniprot/sparql"},
+               "ep":"https://sparql.uniprot.org/"},
               {"property":"http://purl.uniprot.org/core/range","direction":true,
-               "ep":"https://integbio.jp/rdf/mirror/uniprot/sparql"},
-              {"property":"http://biohackathon.org/resource/faldo#begin","direction":true,
-               "ep":"https://integbio.jp/rdf/mirror/uniprot/sparql"} ]
+               "ep":"https://sparql.uniprot.org/"}]
+ },
+ {
+  "pname":"VariantUniProtRegion",
+  "classes":["http://purl.uniprot.org/core/Protein","http://purl.uniprot.org/core/Natural_Variant_Annotation",
+         "http://biohackathon.org/resource/faldo#Region"],
+  "properties":[{"property":"http://purl.uniprot.org/core/annotation","direction":true,
+               "ep":"https://sparql.uniprot.org/"},
+              {"property":"http://purl.uniprot.org/core/range","direction":true,
+               "ep":"https://sparql.uniprot.org/"}]
  }
 ]
