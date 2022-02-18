@@ -33,6 +33,7 @@ public class MPOutput {
         public String id;
         public String literal1;
         public String literal2;
+        public String literal3;
     }
     
     public MPOutput(){

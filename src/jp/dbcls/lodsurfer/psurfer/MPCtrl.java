@@ -67,6 +67,7 @@ public class MPCtrl {
         return toJson(cinf);
     }
 
+    /*
     public String getResult(String filename, String classURI){
         MPData mpd = MPIO.toMPData(filename);
         return toJson(getResult(mpd, classURI));
@@ -76,6 +77,7 @@ public class MPCtrl {
         ClassPath cp = c2paths.get(classURI).get(0);
         return MPQuery.getResult(mpd, cp, epc, cinfo);
     }
+    */
 
     public String getResultFromClasses(String filename, List<String> classURIs ){
         MPData mpd = MPIO.toMPData(filename);

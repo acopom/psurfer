@@ -121,8 +121,9 @@ public class MPIO {
             String buf = br.readLine();
             while(buf != null ){
                 //String data[] = buf.split("\t"); // curl, label, ep, labelp, infop
-                String data[] = buf.split(","); // curl, label, ep, labelp, infop
-                CInfo i = new CInfo(data[0],data[1],data[2],data[3],data[4]);
+                String data[] = buf.split(","); // curl, label, ep, labelp, infop, supclass
+                //System.out.println(buf);
+                CInfo i = new CInfo(data[0],data[1],data[2],data[3],data[4],data[5]);
                 ci.put(data[0],i);
                 buf = br.readLine();
             }

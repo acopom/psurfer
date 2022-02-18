@@ -14,16 +14,17 @@ import java.util.*;
  * @author atsuko
  */
 public class MPQuery {
+    /*
     static public MPOutput getResult(MPData mpd, ClassPath cp, Set<String> epc,
             Map<String, CInfo> cinfo){
         List<MPResult> res = getResult(mpd, cp, epc);
         return toMPOutput(res, cinfo);
-    }
+    }*/
     
     static public void addResult(MPData mpd, ClassPath cp, Set<String> epc,
             Map<String, CInfo> cinfo, MPOutput mpo){
         List<MPResult> res = getResult(mpd, cp, epc);
-        addMPOutput(res, cinfo, mpo);
+        addMPOutput(res, cp.pname, cinfo, mpo);
     }
     
     static public List<MPResult> getResult(MPData mpd, ClassPath cp, Set<String> epc){
@@ -154,7 +155,8 @@ public class MPQuery {
         }
         sparqlbuf.append("}");
         String sparql = sparqlbuf.toString();
-        //System.out.println(sparql);
+//        System.out.println(sparql);
+//        System.out.println(ep);
         QueryExecution qe = QueryExecutionFactory.sparqlService(ep, sparql);
         ResultSet rs = qe.execSelect();
         while(rs.hasNext()){
@@ -188,7 +190,7 @@ public class MPQuery {
         return cps;
     }
     
-    static public void addMPOutput(List<MPResult> res, Map<String, CInfo> cinfo, MPOutput mpo){        
+    static public void addMPOutput(List<MPResult> res, String pname, Map<String, CInfo> cinfo, MPOutput mpo){        
         Map<String, Set<MPResult>> id2res = new HashMap<>();
         ListIterator<MPResult> rit = res.listIterator();
         while ( rit.hasNext()){
@@ -227,26 +229,86 @@ public class MPQuery {
             while ( crit.hasNext() ){
                 MPResult r = crit.next();
                 MPOutput.OutputForClass oc = mpo.createOC(a, r.cl2); // OutputForClass
+                oc.pname = pname;
                 CInfo ci = cinfo.get(r.cl2);
                 Iterator<String> iit2 = r.id2.iterator();
                 while( iit2.hasNext() ){
                     String id2 = iit2.next();
                     MPOutput.Result or = mpo.createResult(oc, id2);
                     // get labels
-                    or.literal1 = getLabel(ci, id2);
-                    or.literal2 = getInfo(ci, id2);
+                    getLabels(ci, id2, or, cinfo);
                 }
             }
             mpo.all.add(a);
         }
     }
     
+/*
     static public MPOutput toMPOutput(List<MPResult> res, Map<String, CInfo> cinfo){
         MPOutput mpo = new MPOutput();
         addMPOutput(res, cinfo, mpo);
         return mpo;
     }
+ */
     
+    static public void getLabels(CInfo ci, String id, MPOutput.Result or, Map<String, CInfo> cinfo){
+        String prefix = "SELECT * WHERE { \n <";
+        StringBuilder sparqlbuf = new StringBuilder(prefix);
+        sparqlbuf.append(id).append("> ").append(ci.labelp).append(" ?lit1 . \n ");
+        if (ci.infop.length() > 1 ){
+            sparqlbuf.append("<")
+                .append(id).append("> ").append(ci.infop).append(" ?lit2 . \n ");
+        }
+        if (ci.supclass != null ){
+           sparqlbuf.append("OPTIONAL{<").append(id)
+                    .append("> <http://www.w3.org/2000/01/rdf-schema#subClassOf> ?c. }");
+        }
+        sparqlbuf.append("}");
+        String sparql = sparqlbuf.toString();
+        //System.out.println(sparql);
+        QueryExecution qe = QueryExecutionFactory.sparqlService(ci.ep, sparql);
+        try{
+            ResultSet rs = qe.execSelect();
+            while(rs.hasNext()){
+                QuerySolution qs = rs.next();
+                if (or.literal1 == null){
+                    RDFNode re1 = qs.get("lit1"); 
+                    if ( re1.isLiteral() ){
+                        or.literal1 = re1.asLiteral().getString();
+                    }
+                }
+                if (ci.infop.length() > 1 && or.literal2 == null){ // KOKO KARA
+                    RDFNode re2 = qs.get("lit2");
+                    if ( re2.isLiteral() ){
+                      or.literal2 = re2.asLiteral().getString();
+                    }
+                }
+                if (ci.supclass != null && or.literal3 == null ){
+                    RDFNode re3 = qs.get("c");
+                    if (re3.isURIResource()){
+                        String curl = re3.asResource().getURI();
+                        ListIterator<String> cit = ci.supclass.listIterator();
+                        while(cit.hasNext()){
+                            if (curl.equals(cit.next())){
+                                CInfo ci2 = cinfo.get(curl);
+                                or.literal3 = ci2.label;
+                                break;
+                            }
+                        }
+                    }
+                }
+                if ( or.literal1 != null && ( ci.infop.length() == 0 || or.literal2 != null )
+                  && ( ci.supclass != null || or.literal3 != null) ){
+                    break;                   
+                }
+            }
+        }catch(Exception e){
+            System.err.println(sparql);
+            e.printStackTrace();
+        }
+        qe.close();
+    }
+        
     static public String getLabel(CInfo ci, String id){
         return getLiteral(ci.ep, id, ci.labelp);
     }

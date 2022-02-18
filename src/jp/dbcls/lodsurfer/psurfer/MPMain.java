@@ -22,20 +22,23 @@ public class MPMain {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        String js = getResult(args[0]);
+        //MPIO.writeJson2File(js, "out2.json");
+        MPIO.writeJson2File(js, args[1]);    
+    }
+    
+    public static String getResult(String in){
         MPCtrl mpc = new MPCtrl();
         mpc.init();
         
-        //System.out.println(mpc.getResult("search.json", "http://purl.uniprot.org/core/Taxon"));
         List<String> pns = new LinkedList<>();
         pns.add("Taxon");
         pns.add("GO");
-        pns.add("ActiveSiteUniProtBegin");
-        pns.add("VariantUniProtRegion");
-        
-        //String js = mpc.getResultFromClasses("search.json", cls);
-        String js = mpc.getResultFromPNames(args[0], pns);
-        //String js = mpc.getResultFromPNames("search.json", pns);     
-        //MPIO.writeJson2File(js, "out6.json");
-        MPIO.writeJson2File(js, args[1]);
+        //pns.add("ActiveSiteUniProtBegin");
+        //pns.add("VariantUniProtRegion");
+
+        String js = mpc.getResultFromPNames(in, pns);
+        //String js = mpc.getResultFromPNames("search.json", pns);
+        return js;
     }
 }
