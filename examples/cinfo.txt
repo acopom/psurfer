@@ -1,10 +1,13 @@
-http://purl.uniprot.org/core/Taxon,Taxon,https://sparql.uniprot.org/,<http://purl.uniprot.org/core/scientificName>,<http://purl.uniprot.org/core/commonName>
-http://purl.uniprot.org/core/Protein,UniProt:Protein,https://sparql.uniprot.org/,<http://www.w3.org/2000/01/rdf-schema#label>,<http://purl.uniprot.org/core/mnemonic>
-http://purl.uniprot.org/core/Part,UniProt:ProteinPart,https://sparql.uniprot.org/,<http://www.w3.org/2000/01/rdf-schema#label>,<http://www.w3.org/2000/01/rdf-schema#label>
-http://purl.uniprot.org/core/Concept,Concept,https://sparql.uniprot.org/,<http://www.w3.org/2000/01/rdf-schema#label>,<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>
-http://www.w3.org/2002/07/owl#Class,GO,https://sparql.uniprot.org/,<http://www.w3.org/2000/01/rdf-schema#label>,<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>
-http://purl.uniprot.org/core/Active_Site_Annotation,UniProt:ActiveSiteAnnotation,https://sparql.uniprot.org/,<http://www.w3.org/2000/01/rdf-schema#label>,-
-https://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_siteCategory,PDB:StructSiteCategory,https://integbio.jp/rdf/sparql,-,-
-https://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_site,PDB:StructSite,https://integbio.jp/rdf/sparql,<https://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_site.details>,<https://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_site.id>
-http://biohackathon.org/resource/faldo#Region,Faldo:Region,https://sparql.uniprot.org/,<http://biohackathon.org/resource/faldo#begin>/<http://biohackathon.org/resource/faldo#position>,<http://biohackathon.org/resource/faldo#end>/<http://biohackathon.org/resource/faldo#position>
-http://biohackathon.org/resource/faldo#ExactPosition,Faldo:ExactPosition,https://sparql.uniprot.org/,<http://biohackathon.org/resource/faldo#position>,-
+http://purl.uniprot.org/core/Taxon,Taxon,https://sparql.uniprot.org/,<http://purl.uniprot.org/core/scientificName>,<http://purl.uniprot.org/core/commonName>,-
+http://purl.uniprot.org/core/Protein,UniProt:Protein,https://sparql.uniprot.org/,<http://www.w3.org/2000/01/rdf-schema#label>,<http://purl.uniprot.org/core/mnemonic>,-
+http://purl.uniprot.org/core/Part,UniProt:ProteinPart,https://sparql.uniprot.org/,<http://www.w3.org/2000/01/rdf-schema#label>,<http://www.w3.org/2000/01/rdf-schema#label>,-
+http://purl.uniprot.org/core/Concept,Concept,https://sparql.uniprot.org/,<http://www.w3.org/2000/01/rdf-schema#label>,<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>,-
+http://www.w3.org/2002/07/owl#Class,GO,https://sparql.uniprot.org/,<http://www.w3.org/2000/01/rdf-schema#label>,-,http://purl.obolibrary.org/obo/GO_0008150 http://purl.obolibrary.org/obo/GO_0005575 http://purl.obolibrary.org/obo/GO_0003674
+http://purl.uniprot.org/core/Active_Site_Annotation,UniProt:ActiveSiteAnnotation,https://sparql.uniprot.org/,<http://www.w3.org/2000/01/rdf-schema#label>,-,-
+https://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_siteCategory,PDB:StructSiteCategory,https://integbio.jp/rdf/sparql,-,-,-
+https://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_site,PDB:StructSite,https://integbio.jp/rdf/sparql,<https://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_site.details>,<https://rdf.wwpdb.org/schema/pdbx-v50.owl#struct_site.id>,-
+http://biohackathon.org/resource/faldo#Region,Faldo:Region,https://sparql.uniprot.org/,<http://biohackathon.org/resource/faldo#begin>/<http://biohackathon.org/resource/faldo#position>,<http://biohackathon.org/resource/faldo#end>/<http://biohackathon.org/resource/faldo#position>,-
+http://biohackathon.org/resource/faldo#ExactPosition,Faldo:ExactPosition,https://sparql.uniprot.org/,<http://biohackathon.org/resource/faldo#position>,-,-
+http://purl.obolibrary.org/obo/GO_0008150,biological_process,https://sparql.uniprot.org/,<http://www.w3.org/2000/01/rdf-schema#label>,-,-
+http://purl.obolibrary.org/obo/GO_0005575,cellular_component,https://sparql.uniprot.org/,<http://www.w3.org/2000/01/rdf-schema#label>,-,-
+http://purl.obolibrary.org/obo/GO_0003674,molecular_function,https://sparql.uniprot.org/,<http://www.w3.org/2000/01/rdf-schema#label>,-,-
