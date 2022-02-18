@@ -90,8 +90,7 @@ public class MPCtrl {
         return toJson(mpo.all);
     }
 
-    public String getResultFromPNames(String filename, List<String> pns ){
-        MPData mpd = MPIO.toMPData(filename);
+    public String getResultFromPNames(MPData mpd, List<String> pns ){
         MPOutput mpo = new MPOutput();
         ListIterator<String> pit = pns.listIterator();
         while ( pit.hasNext()){
@@ -99,23 +98,30 @@ public class MPCtrl {
             MPQuery.addResult(mpd, n2path.get(pn), epc, cinfo, mpo);
         }
         return toJson(mpo.all);
+    }    
+    
+    public String getResultFromPNames(String filename, List<String> pns ){
+        MPData mpd = MPIO.toMPData(filename);
+        return getResultFromPNames(mpd, pns);
     }
 
-    /*private Map<String, List<ClassPath>> getC2Paths(List<ClassPath> paths){
-        Map<String, List<ClassPath>> c2p = new HashMap<>();
-        ListIterator<ClassPath> pit = paths.listIterator();
-        while ( pit.hasNext() ){
-            ClassPath cp = pit.next();
-            String last = cp.classes.get(cp.classes.size()-1);
-            List<ClassPath> cpl = c2p.get(last);
-            if ( cpl == null ){
-                cpl = new LinkedList<>(); 
+    public MPData toMPData(String js){
+        MPData mpd = new MPData();
+        ObjectMapper mapper = new ObjectMapper();
+        try{
+            JsonNode node = mapper.readTree(js);
+            mpd.idclass = node.get(0).get("idclass").asText();
+            int nid = node.get(0).get("ids").size();
+            mpd.ids = new HashSet<>();
+            for (int i = 0; i < nid; i++ ){
+                mpd.ids.add(node.get(0).get("ids").get(i).asText());
             }
-            cpl.add(cp);
-            c2p.put(last, cpl);
+        }catch( IOException e ){
+            e.printStackTrace();
         }
-        return c2p;
-    }*/
+        return mpd;
+    }
+
     
     public static String toJson(Object o){
         ObjectMapper mapper = new ObjectMapper();

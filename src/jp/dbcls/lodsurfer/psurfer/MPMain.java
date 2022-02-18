@@ -22,12 +22,13 @@ public class MPMain {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        String js = getResult(args[0]);
+        String ijs = MPIO.read(args[0]);
+        String ojs = getResult(ijs);
         //MPIO.writeJson2File(js, "out2.json");
-        MPIO.writeJson2File(js, args[1]);    
+        MPIO.writeJson2File(ojs, args[1]);    
     }
     
-    public static String getResult(String in){
+    public static String getResult(String ijs){
         MPCtrl mpc = new MPCtrl();
         mpc.init();
         
@@ -36,9 +37,9 @@ public class MPMain {
         pns.add("GO");
         //pns.add("ActiveSiteUniProtBegin");
         //pns.add("VariantUniProtRegion");
-
-        String js = mpc.getResultFromPNames(in, pns);
-        //String js = mpc.getResultFromPNames("search.json", pns);
-        return js;
+        
+        MPData mpd = mpc.toMPData(ijs);
+        String ojs = mpc.getResultFromPNames(mpd, pns);
+        return ojs;
     }
 }

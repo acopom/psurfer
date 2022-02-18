@@ -34,6 +34,23 @@ public class MPIO {
         return mpd;
     }
 
+    static public String read(String filename){
+        File ifile = new File(filename);
+        StringBuffer sb = new StringBuffer("");
+        try{
+            BufferedReader br = new BufferedReader(new FileReader(ifile));
+            String buf;
+            while( ( buf = br.readLine() ) != null ){
+                sb.append(buf).append("\n");                
+            }
+            br.close();
+        }catch( IOException e ){
+            e.printStackTrace();
+        }
+        return sb.toString();
+    }
+
+    
     static public List<ClassPath> readPaths(String filename){
         List<ClassPath> cps = new LinkedList<>();
         File ifile = new File(filename);
